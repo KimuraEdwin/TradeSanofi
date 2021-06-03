@@ -1,0 +1,58 @@
+.letra-transicao-launch{
+    top: 95px;
+    left: 100px;
+    opacity: 100%;
+    z-index: 1001;
+    position: absolute!important;
+}
+
+.pack-transicao-launch{
+    top: 420px;
+    top: 420px;
+    z-index: 3;
+    left: 100px;
+    z-index: 1001;
+    position: absolute!important;
+}
+
+.heroi-transicao-launch{
+    top: 160px;
+    left: 270px;
+    z-index: 1001;
+    z-index: 1001;
+    position: absolute!important;
+}
+
+.table1-transicao-launch {
+    top: 95px;
+    right: 50px;
+    z-index: 1001;
+    position: absolute!important;
+}
+
+.table2-transicao-launch {
+    top: 360px;
+    right: 50px;
+    z-index: 1001;
+    position: absolute!important;
+}
+
+img.png1024 {
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: absolute;
+}
+
+img.texto-top,
+img.pack-preco,
+img.tabela-concorrentes {
+    left: 100px;
+    opacity: 0;
+}
+
+@keyframes opacity {
+    100% {
+        opacity: 1;
+    }
+}

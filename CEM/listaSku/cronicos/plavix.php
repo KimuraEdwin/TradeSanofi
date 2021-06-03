@@ -1,0 +1,15 @@
+<?php 
+
+$list_sku = json_decode('[
+    {
+      "COD_COMERCIAL": "PLV002",
+      "EAN": 7897595903440,
+      "DESCRICAO_SAP": "PLAVIX 75MG CPR 4X7 V",
+      "FAMILIA": "PLAVIX",
+      "UNID_CAIXA": 56,
+      "FUNCAO":"OUTROS MEDICAMENTOS DE AÇÃO NO APARELHO CARDIOVASCULAR.<br> INDICADO PARA A PREVENÇÃO SECUNDÁRIA DOS EVENTOS ATEROTROMBÓTICOS."
+    }
+  ]', true);
+
+
+?>

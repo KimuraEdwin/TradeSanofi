@@ -1,0 +1,21 @@
+<?php 
+
+$list_sku = json_decode('[
+    {
+      "COD_COMERCIAL": "CMC001",
+      "EAN": 7896422513098,
+      "DESCRICAO_SAP": "CLOMID COM",
+      "FAMILIA": "CLOMID",
+      "UNID_CAIXA": 77,
+      "FUNCAO":"OUTROS PRODUTOS PARA USO EM GINECOLOGIA E OBSTETRÍCIA. <br>DESTINADO AO TRATAMENTO DA INFERTILIDADE FEMININA DECORRENTE DA ANOVULAÇÃO"
+    },
+    {
+      "COD_COMERCIAL": "CMC001",
+      "EAN": 7896422513098,
+      "DESCRICAO_SAP": "CLOMID MG50 COM C/10",
+      "FAMILIA": "CLOMID",
+      "UNID_CAIXA": 77
+    }
+  ]', true);
+
+?>

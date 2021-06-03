@@ -1,0 +1,22 @@
+<?php 
+
+$list_sku = json_decode('[
+  {
+    "COD_COMERCIAL": "TAR001",
+    "EAN": 7891058077419,
+    "DESCRICAO_SAP": "TARGOCID 200 MG 1 FA",
+    "FAMILIA": "TARGOCID",
+    "UNID_CAIXA": 160,
+    "FUNCAO":"CONTROLE DO FÓSFORO SÉRICO EM PACIENTES COM DOENÇA RENAL CRÔNICA (DRC) SOB DUÁLISE"
+  },
+  {
+    "COD_COMERCIAL": "TAR002",
+    "EAN": 7891058077464,
+    "DESCRICAO_SAP": "TARGOCID 400 MG 1 FA TP",
+    "FAMILIA": "TARGOCID",
+    "UNID_CAIXA": 160
+  }
+]', true);
+
+
+?>
