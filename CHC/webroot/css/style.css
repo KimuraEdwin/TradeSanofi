@@ -1,0 +1,2264 @@
+#bg{
+    top:0;
+    z-index:1;
+    width:1024px;
+    height:665px;
+    overflow: hidden;
+    position:absolute;
+    background-image:url("../img/bg/bg.png");
+}
+#bg-produtos{
+    top:0;
+    z-index:1;
+    width:1024px;
+    height:665px;
+    overflow: hidden;
+    position:absolute;
+    background-image:url("../img/bg/bg-produto.png");
+}
+#bg-menu{
+    top:0;
+    z-index:1;
+    width:1024px;
+    height:665px;
+    overflow: hidden;
+    position:absolute;
+    background-image:url("../img/bg/bg-menu.png");
+}
+#bg-pesquisa{
+    top:0;
+    z-index:1;
+    width:1024px;
+    height:665px;
+    overflow: hidden;
+    position:absolute;
+    background-image:url("../img/bg/bg-pesquisa.png");
+}
+#bg-glossario{
+    top:0;
+    z-index:1;
+    width:1024px;
+    height:665px;
+    overflow: hidden;
+    position:absolute;
+    background-image:url("../img/bg/bg-glossario.png");
+}
+
+
+/*************************** CSS ATIVAÇÃO   ********************************************/
+
+.show-menu{
+    display: block!important;
+}
+.active{
+    border: 1px solid #77C9E7;
+    background-color: #77C9E7;
+}
+.active-menugondola-tqt{
+    color: #2475DA!important;
+    background: unset!important;
+    background-color: #ffffff!important;
+}
+.active-side, .active-IR{
+    border: unset!important;
+    color: white!important;
+    background: linear-gradient(to right, #3BE5B7, #3BADBB);
+}
+.active-menusuperior-gastro{
+    background: unset!important;
+    background-color: #B2BB1E!important;
+}
+.active-menugondola-gastro{
+    background: unset!important;
+    background-color: #B2BB1E!important;
+}
+.active-gastro{
+    background: unset!important;
+    border:1px solid #B2BB1E!important;
+    background-color: #B2BB1E!important;
+}
+.active-menusuperior-cuidadosespeciais{
+    background: unset!important;
+    background-color: #FE6000!important;
+}
+.active-menugondola-cuidadosespeciais{
+    background: unset!important;
+    background-color: #FE6000!important;
+}
+.active-cuidadosespeciais{
+    background: unset!important;
+    border:1px solid #FE6000!important;
+    background-color: #FE6000!important;
+}
+.active-menusuperior-dorfebre{
+    background: unset!important;
+    background-color: #0072FF!important;
+}
+.active-menugondola-dorfebre{
+    background: unset!important;
+    background-color: #0072FF!important;
+}
+.active-dorfebre{
+    background: unset!important;
+    border: 1px solid #0072FF!important;
+    background-color: #0072FF!important;
+}
+.active-menusuperior-gripealergia{
+    background: unset!important;
+    background-color: #8F1ABA!important;
+}
+.active-menugondola-gripealergia{
+    background: unset!important;
+    background-color: #8F1ABA!important;
+}
+.active-gripealergia{
+    background: unset!important;
+    border:1px solid #8F1ABA!important;
+    background-color: #8F1ABA!important;
+}
+.active-menusuperior-vitaminas{
+    background: unset!important;
+    background-color: #DBB22D!important;
+}
+.active-menugondola-vitaminas{
+    background: unset!important;
+    background-color: #DBB22D!important;
+}
+.active-vitaminas{
+    background: unset!important;
+    border:1px solid #DBB22D!important;
+    background-color: #DBB22D!important;
+}
+.active-pv{
+    border-radius:5px;
+    border: unset!important;
+    color: white!important;
+    background: linear-gradient(to right, #2AA2D1, #2AA2D1);
+}
+.disabled-guia-prod{
+    background-color: darkgrey!important;
+    opacity: 0.7;
+}
+.disabled-IR{
+    opacity: 0.3;
+}
+.lancamentosActive{
+    top: 35px;
+    left: 105px;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.vitaminasActive{
+    top: 35px;
+    left: 214px;
+    height: 3px;
+    width: 85px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.dorfebreActive{
+    top: 35px;
+    left: 305px;
+    height: 3px;
+    width: 90px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.gripealergiaActive{
+    top: 35px;
+    left: 405px;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.gastroActive{
+    top: 35px;
+    left: 515px;
+    height: 3px;
+    width: 72px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.cuidadosespeciaisActive{
+    top: 35px;
+    left: 597px;
+    height: 3px;
+    width: 123px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.programavivaActive{
+    top: 35px;
+    left: 730px;
+    height: 3px;
+    width: 115px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+.wininstoreActive{
+    top: 35px;
+    left: 844px;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+}
+
+/*************************** CSS BARRAS DE NAVEGAÇÃO **************************************/
+
+.barraSuperior{
+    top: 0px;
+    z-index:2;
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px inset rgba(255,255,255,.2);
+}
+.barraSuperiorMenu{
+    top: 0px;
+    z-index:2;
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px inset rgba(255,255,255,.2);
+}
+.barraEsquerda{
+    top: 0px;
+    z-index:1;
+    width: 38px;
+    height: 665px;
+    border-right: 1px inset rgba(255,255,255,.2);
+}
+.barraEsquerdaMenu{
+    top: 0px;
+    z-index:1;
+    width: 38px;
+    height: 665px;
+    border-right: 1px inset rgba(255,255,255,.2);
+}
+.barraDireita{
+    top: 0px;
+    z-index:1;
+    right: 0px;
+    width: 38px;
+    height: 665px;
+    border-left: 1px inset rgba(255,255,255,.2);
+}
+.barraDireitaMenu{
+    top: 0px;
+    z-index:1;
+    right: 0px;
+    width: 38px;
+    height: 665px;
+    border-left: 1px inset rgba(255,255,255,.2);
+}
+.menu{
+    top: 29px;
+    z-index: 9;
+    width: 946px;
+    height: 625px;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+}
+.menu-cascade{
+    width: 118px;
+    height: 86px;
+    color: white;
+    font-size: 14px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: #427CC1;
+}
+.menu-cascade-produtos{
+    width: 158px;
+    height: 86px;
+    color: white;
+    font-size: 14px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: #427CC1;
+}
+.menu-regionais{
+    top: 10px;
+    left: 223px;
+    z-index: 99;
+}
+.menu-corporativas{
+    top: 105px;
+    left: 223px;
+    z-index: 99;;
+}
+.menu-lancamentos{
+    top: 10px;
+    left: 223px;
+    z-index: 99;
+    opacity: 0.6;
+    background-color: #224A7B;
+}
+.menu-cronicos{
+    top: 10px;
+    left: 223px;
+    z-index: 99;
+}
+.menu-hibridas{
+    top: 10px;
+    left: 351px;
+    z-index: 99;
+}
+.menu-agudos{
+    top: 10px;
+    left: 394px;
+    z-index: 99;
+}
+.menu-associativismo{
+    top: 10px;
+    left: 479px;
+    z-index: 99;
+}
+.menu-hospitalar{
+    top: 10px;
+    left: 565px;
+    z-index: 99;
+}
+.menu-independentes{
+    top: 10px;
+    left: 607px;
+    z-index: 99;
+}
+.menu-genericos{
+    top: 105px;
+    left: 223px;
+    z-index: 99;
+    background-color: #3BADBB;
+}
+.menu-otc{
+    top: 105px;
+    left: 394px;
+    z-index: 99;
+}
+.menu-distritais{
+    top: 105px;
+    left: 351px;
+    z-index: 99;
+}
+.menu-nao-promovidos{
+    top: 105px;
+    left: 565px;
+    z-index: 99;
+}
+.menu-alimentares{
+    top: 105px;
+    left: 479px;
+    z-index: 99;
+}
+.menu-fechar{
+    color: #224A7B;
+    top: 105px;
+    left: 607px;
+    z-index: 99;
+    background-color: #FFFFFF;
+}
+.produtosMenu{
+    left: -222px;
+}
+.produtosMenuGen{
+    left: -286px;
+}
+.storecheckMenu{
+    left: -350px;
+}
+.storecheckMenuGen{
+    left: -414px;
+}
+
+
+/************************ CSS ICONES E BOTÕES DE NAVEGAÇÃO *********************************/
+
+
+.btn-home{
+    z-index:3;
+    width: 38px;
+    height: 38px;
+    border-right: 1px inset rgba(255,255,255,0);
+    border-bottom: 1px inset rgba(255,255,255,.2);
+    background: linear-gradient(40deg, #2475DA, #0F2035);
+}
+.btn-lupa-menu{
+    top: 39px;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+}
+.btn-glossario-menu{
+    top: 78px;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+}
+.iconeHome{
+    top: 8px;
+    left: 8px;
+}
+.iconeLupa{
+    top: 10px;
+    left: 9px;
+}
+.iconeNote{
+    top: 9px;
+    left: 11px;
+}
+.menuCtrl a{
+    text-decoration: none!important;
+}
+.btn-padrao{
+    z-index: 1;
+    width: 118px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 5px;   
+    text-align: center!important;
+}
+.btn-padrao-submenu{
+    z-index: 1;
+    width: 96px;
+    height: 21px;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 15px;   
+    text-align: center!important;
+}
+.btn-menu-superior{
+    top: 10px;
+    color: white!important;
+}
+.btn-padrao p{
+    font-family: "KulimPark SemiBold"!important;
+}
+.btn-programaviva{
+    margin: 35px auto;
+    color: white!important;
+    background: linear-gradient(80deg,#1A4C8B,#174277);
+}
+.btnLancamentos{
+    left: 98px;
+}
+.btnVitaminas{
+    left: 198px;
+}
+.btnDorFebre{
+    left: 292px;
+}
+.btnGripeAlergia{
+    left: 396px;
+}
+.btnGastro{
+    left: 492px;
+}
+.btnCuidadosEspeciais{
+    left: 598px;
+}
+.btnProgramaViva{
+    left: 728px;
+}
+.btnWininstore{
+    left: 835px;
+}
+.btnPdv{
+    left: 197px;
+}
+.btnProdutosGen{
+    left: 325px;
+}
+.btnStoreCheckGen{
+    left: 453px;
+}
+.btnProgramaVivaGen{
+    left: 581px;
+}
+.btnWinInStoreGen{
+    left: 709px;
+}
+.bts-layer-sku {
+    top: 0px;
+    left: -45px;
+    width: 11px;
+    height: 11px;
+    z-index: 999;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.bt-layer-sku-1 {
+    top: 501px;
+}
+.bt-layer-sku-2 {
+    top: 479px;
+}
+.bt-layer-sku-3 {
+    top: 457px;
+}
+.bt-layer-sku-4 {
+    top: 435px;
+}
+.bt-layer-sku-5 {
+    top: 413px;
+}
+.bt-layer-sku-6 {
+    top: 391px;
+}
+.bt-layer-sku-7 {
+    top: 369px;
+}
+.bt-layer-sku-8 {
+    top: 347px;
+}
+.bt-layer-sku-9 {
+    top: 325px;
+}
+.bt-layer-sku-10 {
+    top: 303px;
+}
+.bts-layer-menu-1 {
+    top: unset!important;
+    left: -27px!important;
+    bottom: 13px!important;
+}
+.bts-layer-menu-2 {
+    top: unset!important;
+    left: -27px!important;
+    bottom: 35px!important;
+}
+.bts-layer-menu-3 {
+    top: unset!important;
+    left: -27px!important;
+    bottom: 57px!important;
+}
+.bts-layer-menu-4 {
+    top: unset!important;
+    left: -27px!important;
+    bottom: 79px!important;
+}
+.bts-layer-menu-5 {
+    top: unset!important;
+    left: -27px!important;
+    bottom: 101px!important;
+}
+.btn-comandos-independentes{
+    right: 15px;
+}
+.btn-acesso-geral{
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    font-size: 9px!important;
+    font-family: 'KulimPark SemiBold'!important;
+    background: linear-gradient(80deg,#1A4C8B,#174277);
+}
+.btn-acesso-geral p{
+    font-family: 'KulimPark Bold'!important;
+}
+.btn-acesso-sku{
+    top: 98px;
+    left: 406px;
+}
+.btn-acesso-dgmpe{
+    top: 98px;
+    left: 522px;
+}
+.btn-acesso-educacao{
+    top: 98px;
+    left: 638px;
+}
+.btn-acesso-estrategia{
+    top: 98px;
+    left: 870px;
+}
+.btn-acesso-merchan{
+    top: 98px;
+    left: 754px;
+}
+.btn-submenu-geral{
+    top: 437px;
+}
+.btn-submenu-1{
+    left: 0px;
+}
+.btn-submenu-2{
+    left: 116px;
+}
+.btn-submenu-3{
+    left: 232px;
+}
+.btn-submenu-4{
+    left: 348px;
+}
+.btn-submenu-5{
+    left: 464px;
+}
+.btn-submenu-6{
+    left: 580px;
+}
+#btn-pesquisa, #btn-pesquisa-st{
+    z-index: 1;
+    left: 200px;
+    height:38px;
+    color: white;
+    border: 1px solid white;
+    background-color: #96BCCC;
+    border-radius: 5px 0px 0px 5px;
+}
+.btn-pesquisa-margem{
+    top: 90px;
+}
+#btn-pesquisa-fechar{
+    z-index: 1;
+    width: 33px;
+    left: 683px;
+    height:38px;
+    display: none;
+    color: white;
+    border: 1px solid white;
+    background-color: #73C9E9;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/****************************************  PESQUISA ***************************************/
+
+#txt-pesquisa, #txt-pesquisa-st{
+    height:30px;
+    left: 232px;
+    border: none;
+    width: 469px;
+    color: white;
+    font-size: 16px;
+    padding-left: 15px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #96BCCC;
+    border-radius: 0px 5px 5px 0px;
+    font-family: "KulimPark SemiBold"!important;
+}
+::-webkit-input-placeholder  { 
+    color:white; 
+    font-size: 16px;
+    font-style: italic;
+    font-family: "KulimPark SemiBold"!important;
+}
+input:-moz-placeholder { 
+    color:white;
+    font-size: 16px; 
+    font-style: italic;
+    font-family: "KulimPark SemiBold"!important;
+}
+#resultados-pesquisa{
+    left: 0;
+    right: 0;
+    top: 130px;
+    height: 400px;
+    overflow: auto;
+    color: white; 
+    text-align: center;
+    position: absolute;
+    list-style-type: none;
+}
+#resultados-pesquisa a{
+    text-decoration: none;
+    color: white!important;
+    text-transform: uppercase;
+}
+#resultados-pesquisa li{
+    margin-bottom: 10px;
+}
+#area-heroi{
+    padding-top: 130px;
+    text-align: center;
+}
+
+/****************************************  GLOSSARIO ***************************************/
+
+.linhaBtnGlossario{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boxIndice{
+    width: 214px;
+    height: 38px;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #277390;
+}
+.boxConteudoGlossario{
+    width: 214px;
+    height: 401px;
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #277390;
+}
+.boxIndiceUltima{
+    height: 38;
+    width: 246px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 70px;
+    text-align: center;
+    background-color: #277390;
+}
+.boxConteudoGlossarioUltima{
+    width: 246px;
+    height: 286px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 70px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #277390;
+}
+.boxConteudoGlossario p, .boxConteudoGlossarioUltima p{
+    text-align: left;
+}
+.linhaCimaIndice, .linhaCimaIndice{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.texto_indice{
+    height: 38px;
+}
+.texto_indice p{
+    margin:unset;
+}
+.text_conteudo_glossario{
+    height: 401px;
+    padding: 0px 15px;
+}
+.text_conteudo_glossario .titulo{
+    color: #53EFC9;
+    font-family: "KulimPark Bold"!important;
+}
+.bg-btn-glossario{
+    color: white!important;
+    background: linear-gradient(to right, #3692FF, #77C9E7)!important;
+}
+.active-side-glossario{
+    background: linear-gradient(to right, #2AA2D1, #2AA2D1)!important;
+}
+.bg-active-glo-search{
+    top: 78px;
+    z-index: 1;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    background-color: white!important;
+}
+.ajusteGlossarioTopo{
+    top: -219px!important;
+    height: 152px!important;
+    position: relative!important;
+}
+.ajusteGlossarioBaixo{
+    left: 465px!important;
+    bottom: 44px!important;
+    height: 152px!important;
+    position: absolute!important;
+}
+.margem-glossario{
+    top: 25px;
+    left: 15px;
+}
+.margem-btn{
+    margin-left: 15px;
+}
+.style-hr{
+    margin:20px 0px; 
+    border-style: dashed; 
+    border-color:#53EFC9
+}
+
+/****************************************  COMANDOS DO MES ***************************************/
+
+.areaConteudoComandos{
+    width: 100%;
+    margin-top: 50px;
+}
+.margin-texto{
+    margin-top: 10px;
+}
+.margin-left-texto{
+    margin-left: 15px;
+}
+.box-comandos-lateral{
+    width: 183px;
+    height: 407px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #427CC1;
+}
+.box-comandos-central{
+    width: 118px;
+    height: 407px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #427CC1;
+}
+.box-comandos-central img, .box-comandos-lateral img{
+    width: 100%;
+}
+.header-box-comandos{
+    width: 100%;
+    height: 28px;
+}
+.header-bg-degrade{
+    background: linear-gradient(to left, #4077AD, #203C57);
+}
+.header-bg{
+    background-color: #4077AD;
+}
+.centralizar-texto{
+    left: 0px;
+    right: 0px;
+    margin: 6px auto;
+}
+.box-titulo-comandos{
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    width: 907px;
+    height: 49px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.box-titulo-comandos p{
+    margin-top: 10px;
+    font-family: "KulimPark Bold"!important;
+}
+.comandosMesTitulo{
+    color: #224A7B;
+    letter-spacing: 1px;
+    font-family: "KulimPark Bold"!important;
+}
+.box-comandos-esq{
+    left: 0px;
+    width: 164px;
+    height: 431px;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #277390;
+}
+.box-comandos-novo{
+    left: 0px;
+    height: 431px;
+    overflow: hidden;
+}
+.box-comandos-meio-cima{
+    left: 176px;
+    width: 212px;
+    height: 238px;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #277390;
+}
+.box-comandos-meio-baixo{
+    top: 249px;
+    left: 176px;
+    width: 212px;
+    height: 182px;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #277390;
+}
+.box-comandos-direita-cima{
+    right: 0px;
+    width: 512px;
+    height: 238px;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #277390;
+}
+.box-comandos-direita-baixo{
+    top: 249px;
+    right: 0px;
+    width: 512px;
+    height: 182px;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #277390;
+}
+
+/****************************************  MENU  *************************************************/
+
+.row-menu{
+    width:100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.prioritarios{
+    top: 38px;
+    left: 38px;
+    width:948px;
+    height:313px;
+}
+.prioritarios p{
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.outros{
+    top: 371px;
+    left: 38px;
+    width: 948px;
+    height: 294px;
+}
+.outros p{
+    color: white;
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.outros-sp{
+    top: 38px;
+    left: 38px;
+    width:948px;
+    height:626px;
+    display: none;
+}
+.outros-sp p{
+    color: white;
+    font-size: 18px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.seta-direita-menu{
+    top: 126px;
+    right: 40px;
+    width: 30px;
+    height: 380px;
+    border-radius: 5px;
+    background-color: #ffffff55;
+}
+.seta-esquerda-menu{
+    top: 126px;
+    left: 40px;
+    width: 30px;
+    height: 380px;
+    border-radius: 5px;
+    background-color: #ffffff55;
+}
+.quadProdutosMenu-info{
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    background: linear-gradient(120deg, #1B5397, #0F2035);
+}
+.quadProdutosMenu{
+    width: 154px;
+    height: 154px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.quadProdutosMenupv{
+    width: 86px;
+    height: 86px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.quadProdutosPrioritarios{
+    border: 3px solid #427CC1;
+}
+.btn-logos-menu{
+    width: 154px;
+    height: 154px;
+    margin: 0px 3px;
+}
+
+.letra-menu-generico{
+    font-size:10px !important;
+    margin-top:unset!important;
+    color:#224a7b !important;
+    text-decoration:none !important;
+    text-transform: uppercase!important;
+    font-family: "KulimPark Bold"!important;
+}
+
+.sub-menu-generico{
+    font-size:5px !important;
+    margin-top:unset!important;
+    color:#224a7b !important;
+    text-decoration:none !important;
+    text-transform: uppercase !important;
+    font-family: "KulimPark Bold"!important;
+}
+.row-menu a{
+    text-decoration:none!important;
+}
+.quadProdutosMenuBgPriori{
+    border-radius: 50px;
+    border: 10px solid #DBB22D;
+}
+.quadProdutosMenuBgPrioriGripe{
+    border-radius: 50px;
+    border: 10px solid #8F1ABA;
+}
+.quadProdutosMenuBgPrioriDor{
+    border-radius: 50px;
+    border: 10px solid #0072FF;
+}
+.quadProdutosMenuBgPrioriLanc{
+    border-radius: 50px;
+    border: 10px solid #ffffff;
+}
+.quadProdutosMenuBgPrioriGastro{
+    border-radius: 50px;
+    border: 10px solid #B2BB1E;
+}
+.linhaGuiaPrioritarios{
+    left: 0;
+    right: 0;
+    top: 300px;
+    width: 551px;
+    position: absolute;
+    border: 1px dashed rgba(83, 239, 200, 0.377);
+}
+.planeta-menu{
+    top: 50px;
+    z-index: -1;
+    right: -90px;
+    position: absolute;
+}
+.btn-logos-menu .quadProdutosMenu img{
+    width: 130px;
+}
+
+/****************************************  QUADRO  *************************************************/
+
+.quadro{
+    top: 135px;
+    left: 59px;
+    width: 906px;
+    height: 475px;
+    border-radius: 7px;
+    border: 1px solid #77C9E7;
+    background-color: #F0F0F0;
+}
+.quadro-pesquisa{
+    top: 135px;
+    left: 59px;
+    width: 906px;
+    height: 475px;
+}
+.quadro-comandos{
+    left: 0px;
+    right: 0px;
+    top: 133px;
+    width: 908px;
+    height: 431px;
+    border-radius: 7px;
+}
+.quadro-produtos{
+    left: 0px;
+    right: 0px;
+    top: 133px;
+    width: 910px;
+    height: 431px;
+    border-radius: 7px;
+}
+.quadro-border{
+    border: 8px solid white;
+}
+.logo{
+    width: 129px;
+    height: 63px;
+    text-align: center;
+    border-radius: 4px 4px 0px 0px;
+    background: linear-gradient(-180deg, #CDDDED, #ffffff);
+}
+.logoCenter{
+    width: 129px;
+    height: 63px;
+    text-align: center;
+    padding: 0px 5px;
+}
+.horizontalLogo img{
+    width: 90%;
+}
+.verticalLogo img{
+    height: 90%;
+}
+.areaHeroi{
+    top: -63px;
+    left: -1px;
+    width: 129px;
+    height: 538px;
+    background-color: white;
+    border-radius: 4px 4px 0px 7px;
+   /* background: linear-gradient(45deg, #BBC4D1, #CDDDED);*/
+}
+.areaHeroi img{
+    bottom: 0px;
+}
+.planeta_produtos{
+    top: -145px;
+    left: -40px;
+    z-index: -1;
+    position: absolute;
+}
+.logo_produtos{
+    top: -80px;
+    left: 49px;
+    width: 14%;
+    position: absolute;
+}
+.ajuste_logo_pharmaton{
+    top: -60px!important;
+    width: 18%!important;
+    left: 23px!important;
+}
+
+/****************************************  SKU  *************************************************/
+
+.conteudoSku{
+    width: 910px;
+    height: 475px;
+    margin-right: 0px;
+}
+.linhaPack{
+    height: 237px;
+    text-align: center;
+}
+.linhaPack-dist{
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #53EFC9;
+}
+.linhaPackCenter{
+    height: 445px;
+    padding-top: 50px;
+}
+.linhaTabela{
+    height: 217px;
+    text-align: center;
+}
+.linha-dist-content{
+    width: 100%;
+    height: 371px;
+    margin-top:20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #277390;
+}
+.col-table{
+    border-spacing: 0px 9px;
+    border-collapse: unset!important;
+}
+.col-table-dist{
+    border-spacing: 0px 0px;
+    border-collapse: unset!important;
+}
+.table-ajuste, .table-ajuste-dist{
+    font-size: 12px;
+}
+.table-ajuste tr, .table-ajuste-dist tr{
+    height: 24px;
+}
+.table-ajuste tr th{
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 400!important;
+    color: #53EFC9!important;
+    border: 1px solid #53EFC9;
+    background-color: transparent;
+}
+.table-ajuste tr td{
+    border-radius: 4px;
+    color: white!important;
+    background-color: #2AA2D1;
+}
+.table-ajuste-dist tr th{
+    text-align: center;
+    font-weight: 400!important;
+    color: #53EFC9!important;
+    border-left: 1px dotted #53EFC9;
+    background-color: transparent;
+}
+.table-ajuste-dist tr td{
+    color: white!important;
+    border-top: 1px dotted #53EFC9;
+    border-left: 1px dotted #53EFC9;
+}
+.linha-dist-content .col-table-sku-dist tr td{
+    color: white!important;
+    border-left: unset!important;
+}
+.linha-dist-content .col-table-sku-dist tr th{
+    color: white!important;
+    border-left: unset!important;
+}
+.col-table-sku{
+    width: 444px;
+    text-align: left;
+    margin-right: 20px!important;
+}
+.col-table-sku tr td{
+    padding-left: 20px!important;
+}
+.col-table-cod_comercial{
+    width: 154px;
+    margin-right: 20px!important;
+}
+.col-table-ean{
+    width: 154px;
+    margin-right: 20px!important;
+}
+.col-table-sku-dist{
+    width: 360px;
+    text-align: left;
+    margin-left: 36px!important;
+    margin-right: unset!important;
+}
+.col-table-cod_comercial-dist{
+    width: 163px;
+    margin-left: unset!important;
+    margin-right: unset!important;
+}
+.col-table-ean-dist{
+    width: 163px;
+    margin-left: unset!important;
+    margin-right: unset!important;
+}
+.col-table-cx_embarque-dist{
+    margin-right: 36px!important;
+    width: 163px;
+}
+.linha-dist-content table tr th {
+    height: 70px;
+}
+.linha-dist-content table tr td {
+    height: 65px;
+}
+.col-table-cx_embarque{
+    width: 96px;
+}
+.skuAjusteHorizontal{
+    width: 100%; 
+}
+.funcaoSku{
+    width: 910px;
+    bottom: 180px;
+    color: #427CC1;
+    font-family: "KulimPark Bold"!important;
+}
+.titulo-gen-produto{
+    color: #224A7B;
+    font-family: "KulimPark Bold"!important;
+}
+.titulo-gen-produto span{
+    font-size: 10px;
+}
+.table-visto{
+    border-spacing: 0px 0px;
+}
+.table-visto tr td{
+    padding: 0px;
+}
+
+/*********************************** DGMPE ************************************/
+
+.conteudoDgmpe{
+    width: 777px;
+    height: 475px;
+    margin-right: 0px;
+}
+.area-conteudo-dgmpe{
+    z-index: 1;
+    width: 768px;
+    height: 92px;
+    margin-left: -1px;
+    border: 1px solid white;
+    border-radius: 0px 4px 4px 0px;
+}
+.area-conteudo-dgmpe-lantus{
+    z-index: 1;
+    width: 705px;
+    height: 238px;
+    margin-left: -1px;
+    border: 1px solid white;
+    border-radius: 0px 4px 4px 0px;
+}
+.area-conteudo-ditribuicao{
+    top: 20px;
+    background-color: #77C9E7;
+}
+.area-conteudo-gondola{
+    top: 113px;
+    margin-top: 11px;
+    background-color: #224A7B;
+}
+.area-conteudo-merchandising{
+    top: 218px;
+    margin-top: 11px;
+    background-color: #3BADBB;
+}
+.area-conteudo-preco{
+    top: 323px;
+    margin-top: 11px;
+    background-color: #427CC1;
+}
+.area-icone-dgmpe{
+    z-index: 1;
+    width: 96px;
+    height: 92px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.area-icone-dgmpe-lantus{
+    z-index: 1;
+    width: 96px;
+    height: 238px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.area-icone-ditribuicao{
+    margin-top: 20px;
+    background-color: #77C9E7;
+}
+.area-icone-gondola{
+    margin-top: 11px;
+    background-color: #224A7B;
+}
+.area-icone-merchandising{
+    margin-top: 11px;
+    background-color: #3BADBB;
+}
+.area-icone-preco{
+    margin-top: 11px;
+    background-color: #427CC1;
+}
+.btn-redes{
+    bottom: 10px;
+    right: 138px;
+}
+.btn-independentes{
+    bottom: 10px;
+    right: 8px;
+}
+.icone-texto{
+    font-size: 14px;
+    color: white!important;
+    font-family: "KulimPark SemiBold";
+}
+.conteudo-texto{
+    font-size: 24px;
+    color: white!important;
+    font-family: "KulimPark SemiBold";
+}
+.table-conteudo-dgmpe{
+    float: left;
+    height: 100%;
+    width: 366px;
+    color: white;
+    font-size: 14px;
+    line-height: 13px;
+    border-spacing: 0px;
+}
+.table-conteudo-dgmpe tr th{
+    text-align: left;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-top: 0px solid white;
+    border-right: 0px solid white;
+}
+.table-conteudo-dgmpe tr td{
+    padding-left: 10px;
+}
+.table-conteudo-dgmpe-vb{
+    float: left;
+    width: 82px;
+    height: 100%;
+    color: white;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    border-spacing: 0px;
+}
+.table-conteudo-dgmpe-vb tr th{
+    border: 1px solid white;
+    border-top: 0px solid white;
+}
+.table-conteudo-dgmpe-vb tr td{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.texto-conteudo-dgmpe-gondola{
+    float: right;
+    width: 320px;
+    height: 100%;
+}
+.texto-conteudo-dgmpe-gondola p{
+    color: white;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+.conteudo-dgmpe-preco{
+    float: left;
+    height: 100%;
+    width: 448px;
+    font-size:24px;
+    color: white;
+}
+.conteudo-dgmpe-preco-dir{
+    float: right;
+    width: 320px;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+.conteudo-dgmpe-preco p{
+    padding: 0px 20px;
+}
+.conteudo-dgmpe-preco-dir p{
+    padding: 0px 15px;
+}
+.ctrl-box-lantus-dgmpe{
+    width: 129px;
+    height: 475px;
+}
+.linha-guia-lantus-dgmpe-v{
+    top: 15px;
+    width: 1px;
+    right: 267px;
+    height: 205px;
+    background-color: white;
+}
+.linha-guia-lantus-dgmpe-h{
+    top: 61px;
+    left: 20px;
+    height: 1px;
+    width: 665px;
+    background-color: white;
+}
+.video{
+    left: 0;
+    right: 0;
+    top: 17px;
+    z-index: 1;
+    width: 780px;
+}
+.paddingPack p {
+    font-family: 'KulimPark Bold'!important;
+}
+
+/*********************************** GONDOLA ************************************/
+
+.conteudoGondola{
+    width: 910px;
+    height: 343px;
+    margin-top: 80px;
+}
+.areaContentGondolaEsq{
+    width: 444px;
+    height: 160px;
+    border-radius: 5px;
+    margin-bottom: 23px;
+    background-color: #277390;
+}
+.areaContentGondolaEsq2{
+    width: 444px;
+    height: 343px;
+    border-radius: 5px;
+    margin-bottom: 23px;
+    background-color: #277390;
+}
+.areaContentGondolaEsq:last-child{
+    margin-bottom: 0px;
+}
+.areaContentGondolaDir{
+    width: 444px;
+    height: 343px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(23, 51, 85), #1C559C);
+}
+.textBoxGondola{
+    padding: 25px 30px 0px 30px;
+}
+.colorTitle{
+    color: #53EFC9;
+}
+
+/*********************************** EDUCACAO ************************************/
+
+.conteudoEducacao{
+    width: 910px;
+    height: 430px;
+    margin-top: 40px;
+}
+.areaContentEducacaoPharmatonEsq{
+    width: 348px;
+    height: 285px;
+    display: flex;
+    border-radius: 5px;
+    margin-right: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #277390;
+}
+.areaContentEducacaoAllegraEsq{
+    width: 212px;
+    height: 343px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #277390;
+}
+.areaContentEducacaoAllegraEsq2{
+    width: 270px;
+    height: 343px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #277390;
+}
+.areaContentEducacaoAllegraEsq3{
+    width: 270px;
+    height: 179px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #277390;
+}
+.areaContentEducacaoAllegraEsq4{
+    width: 270px;
+    height: 133px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #277390;
+}
+.areaContentEducacaoAllegraDir{
+    width: 444px;
+    height: 343px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(23, 51, 85), #1C559C);
+}
+.areaContentEducacaoAllegraDir2{
+    width: 329px;
+    height: 356px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(23, 51, 85), #1C559C);
+}
+.areaContentEducacaoPharmatonDir{
+    width: 520px;
+    height: 284px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#2475DA, #0F2035);
+}
+.textBoxEducacao{
+    padding: 18px 10px 18px 10px;
+}
+.textBoxEducacao2{
+    padding: 12px 10px 5px 10px;
+}
+.textBoxEducacao3{
+    padding: 0px 10px 10px 10px;
+}
+.guiaEducacao{
+    width: 90%;
+    border: 1px dashed #53EFC9;
+}
+.box-abaixo-pharmaton{
+    width: 900px;
+    height: 40px;
+    bottom: -25px;
+    padding-top: 10px;
+    border-radius: 5px;
+    position: absolute;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #12335E;
+}
+.box-abaixo-pharmaton2{
+    width: 900px;
+    height: 106px;
+    display: flex;
+    bottom: -45px;
+    padding-top: 10px;
+    border-radius: 5px;
+    position: absolute;
+    padding-left: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: #12335E;
+}
+.box-baixo-educacao-oscal{
+    left: 68px;
+    right: 0px;
+    width: 792px;
+    height: 52px;
+    bottom: -70px;
+    position: absolute;
+    border-radius: 7px;
+    background: linear-gradient(to right, #0F2035, #2475DA);
+}
+.box-dorflex-educacao{
+    width: 792px;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #53EFC9;
+}
+.box-enterogermina-educacao{
+    width: 795px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #277390;
+}
+.box-oscal-educacao-superior{
+    width: 386px;
+    height: 112px;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #277390;
+}
+.box-oscal-educacao-meio-lateral{
+    width: 200px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 12px;
+    background: linear-gradient(45deg, #2475DA, #0F2035);
+}
+.box-oscal-educacao-meio{
+    width: 344px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 12px;
+    background: linear-gradient(45deg, #2475DA, #0F2035);
+}
+.box-oscal-educacao-inferior{
+    width: 344px;
+    height: 72px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #2475DA, #0F2035);
+}
+
+/*********************************** MERCHAN ************************************/
+
+.conteudoEducacao{
+    width: 910px;
+    height: 380px;
+    margin-top: 40px;
+}
+.areaContentMerchanAllegraEsq{
+    width: 212px;
+    height: 380px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #277390;
+}
+.areaContentMerchanAllegraDir{
+    width: 684px;
+    height: 343px;
+    border-radius: 5px;
+}
+.areaContentMerchanAllegraDirProd{
+    width: 684px;
+    height: 380px;
+    border-radius: 5px;
+    background-color: #96BCCC;
+}
+.btn-merchan{
+    width: 85%;
+    height: 75px;
+    color: #53EFC9;
+    text-align: center;
+    border-bottom: 1px dotted #53EFC9;
+} 
+.btn-merchan:nth-child(5){
+    border-bottom:none;
+} 
+.btn-merchan-1{
+    
+}
+.btn-merchan-2{
+
+}
+.btn-merchan-3{
+
+}
+.btn-merchan-4{
+
+}
+.btn-merchan-5{
+
+}
+.btn-mapa-merchan{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+}
+.btn-mandatorio{
+    top: 160px;
+    right: 380px;
+    transform: rotate(-30deg);
+}
+.btn-balcao{
+    top: 75px;
+    right: 250px;
+    transform: rotate(31deg);
+}
+.btn-ponta-gondola{
+    top: 240px;
+    right: 290px;
+    transform: rotate(33deg);
+}
+.btn-chao{
+    top: 150px;
+    right: 230px;
+    transform: rotate(33deg);
+}
+.btn-checkout{
+    top: 300px;
+    right: 420px;
+    transform: rotate(33deg);
+}
+.btn-crossmerchan{
+    top: 95px;
+    right: 440px;
+    transform: rotate(-30deg);
+}
+.active-merchan-btn{
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    background-color: #2AA2D1;
+}
+.areaDescProdMerchan{
+    width: 212px;
+    height: 380px;
+    background-color: #2AA2D1;
+    border-radius: 5px 0px 0px 5px;
+}
+.areaImgProdMerchan{
+    width: 472px;
+    height: 380px;
+    border-radius: 0px 5px 5px 0px;
+}
+.tituloDescMerchan{
+    font-size: 18px;
+    color: #12335E;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.descMerchanProd{
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.btn-close-prod-merchan{
+    top: 50px;
+    right: 10px;
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #8F1ABA;
+}
+
+/*********************************** WIN IN STORE ************************************/
+
+.corPlanejamento{
+    background-color: #C8C427;
+}
+.corVerificacao{
+    background-color: #9F9D00;
+}
+.corApresentar{
+    background-color: #2F5493;
+}
+.corEducacao{
+    background-color: #AB1842;
+}
+.corMerchan{
+    background-color: #FA6E46;
+}
+.corControle{
+    background-color: #D6AA00;
+}
+.conteudoWin{
+    width: 745px;
+    height: 475px;
+    margin-right: 0px;
+}
+.logoWin{
+    width: 161px;
+    height: 93px;
+    margin-top: -93px;
+    text-align: center;
+    margin-bottom: 93px;
+    border-radius: 4px 4px 0px 0px;
+}
+.areaWin{
+    top: -63px;
+    left: -1px;
+    width: 161px;
+    height: 538px;
+    background-color: white;
+    border-radius: 4px 4px 0px 7px;
+}
+.areaWin img{
+    left: 0px;
+    bottom: 55px;
+}
+.win-planejamento{
+    font-size: 32px;
+    color:#C8C427;
+    text-align: left;
+    font-family: "KulimPark Bold"!important;
+}
+.win-verificacao{
+    color:#9F9D00;
+    font-size: 32px;
+    text-align: left;
+    font-family: "KulimPark Bold"!important;
+}
+.win-apresentar{
+    color:#2F5493;
+    font-size: 32px;
+    text-align: left;
+    font-family: "KulimPark Bold"!important;
+}
+.win-educacao{
+    color:#AB1842;
+    font-size: 32px;
+    text-align: left;
+    font-family: "KulimPark Bold"!important;
+}
+.win-merchan{
+    color:#FA6E46;
+    font-size: 32px;
+    text-align: left;
+    font-family: "KulimPark Bold"!important;
+}
+.win-controle{
+    color:#D6AA00;
+    font-size: 32px;
+    text-align: left;
+    font-family: "KulimPark Bold"!important;
+}
+.areaIconeWin{
+    width: 128px;
+    height: 454px;
+}
+.areaConteudoWin{
+    width: 511px;
+    height: 454px;
+}
+.areaCtrIconeWin{
+    float: left;
+    height: 100%;
+}
+.areaCtrConteudoWin{
+    float: left;
+    height: 100%;
+}
+.quadIconeWinCheck{
+    width:80px;
+    height:37px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.quadIconeAjusteEdu{
+    width:68px;
+    height:48px;
+}
+.quadIconeAjusteEdu-2{
+    width:78px;
+    height:58px;
+    margin: 30px auto;
+}
+.retanConteudoWinCheck{
+    width: 577px;
+    height: 37px;
+    margin: 15px 20px 15px 0px;
+    border-radius: 5px;
+}
+.retanConteudoWinCheck-offset{
+    top: 35px;
+    margin-left: 10px;
+}
+.retanConteudoAjusteEdu{
+    width: 577px;
+    height: 48px;
+}
+.retanConteudoAjusteEdu-2{
+    width: 577px;
+    height: 58px;
+    margin: 30px 20px 30px 0px;
+}
+.quadIconeWin{
+    width:85px;
+    height:68px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.retanConteudoWin{
+    width: 511px;
+    height: 68px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 5px;
+}
+.retanConteudoWin p, .retanConteudoWinCheck p {
+    margin-left: 10px;
+}
+.areaGuia{
+    width: 1px;
+    float: left;
+    height: 100%;
+}
+.linhaGuia{
+    width: 1px;
+    height: 454px;
+}
+.img-leque{
+    top: -83px;
+    right: 0px;
+}
+.ajusteLequeControle{
+    right: -9px!important;
+}
+.ajusteLequeMerchan{
+    right: -2px!important;
+}
+.ajusteLequeVerificacao{
+    right: 1px!important;
+}
+.ajusteLequeApresentar{
+    top: -94px!important;
+}
+.textConteudoEdu{
+    color: #AB1842;
+    margin-left: 40px;
+    margin-top: -55px
+}
+.textAjusteConteudoEdu{
+    margin-top: -45px;
+    margin-bottom: 32px;
+}
+.textAjusteConteudoEdu-2{
+    margin-top: -64px;
+    margin-bottom: 64px;
+}
+.btn-wininstore{
+    width: 50px;
+    height: 40px;
+    
+}
+.btn-planejamento{
+    z-index: 9;
+    top: -35px;
+    right: 110px;
+    transform: rotate(23deg);
+}
+.btn-verificacao{
+    z-index: 8;
+    top: -59px;
+    right: 90px;
+    transform: rotate(37deg);
+}
+.btn-apresentar{
+    z-index: 7;
+    top: -75px;
+    right: 65px;
+    transform: rotate(70deg);
+}
+.btn-educacao{
+    z-index: 6;
+    top: -73px;
+    right: 32px;
+    transform: rotate(100deg);
+}
+.btn-merchandising{
+    z-index: 5;
+    top: -53px;
+    right: 7px;
+    transform: rotate(133deg);
+}
+.btn-controle{
+    z-index: 4;
+    top: -33px;
+    right: 0px;
+    transform: rotate(3deg);
+}
+.opacidade_quadro{
+    border: none;
+    background-color: rgba(255,255,255,0.20);
+}
+
+/*********************************** PROGRAMA VIVA ************************************/
+
+.quadro-programa-viva{
+    top: 95px!important;
+    border: none!important;
+    background-color: rgba(255,255,255,0.5)!important;
+}
+.areaPV{
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: 155px;
+    height: 475px;
+    border-radius: 7px 0px 0px 7px;
+}
+.areaMenuPV{
+    width: 155px;
+    height: 454px;
+}
+.conteudoPV{
+    width: 750px;
+    height: 475px;
+    margin-right: 0px;
+}
+.areaGuiaPv{
+    top: 0;
+    width: 1px;
+    left: 153px;
+    height: 100%;
+}
+.linhaGuiaPV{
+    width: 1px;
+    height: 386px;
+    border-right: 1px dashed #53EFC9;
+}
+.areaCtrConteudoPV{
+    right: 0px;
+    width: 750px;
+    height: 100%;
+}
+.areaConteudoPV{
+    width: 511px;
+    height: 454px;
+}
+.quadroPV p {
+    margin-left: 20px;
+}
+.osteoAlergo{
+    top: 38px;
+    left: 38px;
+}
+.osteoAlergo p{
+    font-size: 18px;
+    color: #53EFC9;
+    padding-top: 26px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+.sncCardioGastro{
+    top: 351px;
+    left: 38px;
+}
+.sncCardioGastro p{
+    font-size: 18px;
+    color: #53EFC9;
+    padding-top: 16px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+.btn-logos-menu-pv{
+    width: 86px;
+    height: 86px;
+    margin-left: 44px;
+}
+.btn-logos-menu-pv-info{
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+}
+.row-menu-pv{
+    padding-bottom: 10px;
+}
+.linhaContentPv{
+    padding: 0px 20px;
+}
+.quadroIconeContentPv{
+    width: 86px;
+    height: 107px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.quadroIconeContentPvIni{
+    width: 54px;
+    height: 99px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.quadroTextContentPv{
+    width: 566px;
+    height: 107px;
+    margin-left: 11px;
+    border-radius: 0px 3px 3px 0px;
+}
+.quadroTextContentPvIni{
+    width: 629px;
+    height: 99px;
+    margin-left: 5px;
+    border-radius: 7px;
+}
+.quadroTextContentPvIni table{
+    margin:0px;
+}
+.quadroTextContentPvIniTop{
+    width: 149px;
+    height: 28px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+.quadroTextContentPvIniBot{
+    width: 149px;
+    height: 99px;
+    margin-left: 5px;
+    border-radius: 7px;
+}
+.quadroTextContentPvIniCut{
+    width: 149px;
+    height: 99px;
+    margin-left: 5px;
+    border-radius: 7px;
+}
+.corQuadroContentPvTop{
+    background-color: #277390;
+}
+.corQuadroContentPvMid{
+    background-color: #96BCCC;
+}
+.corQuadroContentPvBot{
+    background-color: #2AA2D1;
+}
+.corQuadroContentPvCHC{
+    background-color: #2AA2D1;
+}
+.paddingContentPv{
+    padding-left: 30px;
+}
+.paddingContentPvIni{
+    padding-left: 10px;
+}
+.logoPVContent{
+    top: 20px;
+    left: 175px;
+}
+.paddingTopContentPv{
+    padding-top: 30px;
+}
+.imgProdutoContentPv{
+    right: 0px;
+    bottom: -15px;
+}
+.padding-text-pv{
+    padding-top: 8px;
+}
+.textoLateralPv{
+    padding: 0px;
+    transform: rotate(-90deg); 
+}
+.border-spacing{
+    border-spacing: 15px 0px!important;
+}
+.controle-table-st tr:first-child td{
+    height: 38px;
+    color:white;
+    background-color: #96BCCC;
+    border-radius: 3px 3px 0px 0px;
+}
+.controle-table-st tr td{
+    height: 40px;
+    color:white;
+    border-bottom: 1px dashed #53EFC9;
+    background-color: #96BCCC;
+}
+.controle-table-st tr td:nth-child(4){
+    background-color: #277390;
+}
+.controle-table-st tr:last-child td{
+    height: 38px;
+    color:white;
+    background-color: #96BCCC;
+    border-radius:  0px 0px 3px 3px;
+}
+.controle-table-st tr:last-child td:nth-child(4){
+    background-color: #277390;
+}
+.controle-table-st tr:first-child th{
+    height: 28px;
+    color:white;
+    border-radius: 3px;
+    background-color: #96BCCC;
+}
+.controle-table-st tr:first-child th:nth-child(4){
+    background-color: #277390;
+}
+.textoTituloPv{
+    color: #53EFC9;
+    font-family: "KulimPark SemiBold"!important;
+}
+.ajustelogoCHC{
+    left: 0;
+    right: 0;
+    top: -30px;
+    position: absolute;
+}
+.quadProdutosCHC{
+    border: 3px solid #53EFC9;
+}
+.img_lua_pv{
+    top: -30px;
+    right: -120px;
+    position: absolute;
+}
+.img_foguete_pv{
+    z-index: -1;
+    left: 160px;
+    bottom: -140px;
+    position: absolute;
+}
+.descontoPV{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.descontoPV img{
+    width: 1rem;
+}
