@@ -6,7 +6,7 @@ $list_sku = json_decode('[
     "EAN": 7891058009458,
     "DESCRICAO_SAP": "DORFLEX GOTAS 20 ML",
     "FAMILIA": "Dorflex",
-    "UNID_CAIXA": 48,
+    "UNID_CAIXA": 4008, 
     "FUNCAO": ""
   },
   {
